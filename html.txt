@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeCraft Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>CodeCraft Solutions</h1>
+        <nav>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Your Go-To Experts for HTML & CSS Coding</h2>
+            <p>We build beautiful, responsive websites for small businesses.</p>
+            <a href="#contact" class="btn">Get a Free Quote</a>
+        </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>
+                    <h3>Website Design</h3>
+                    <p>Custom HTML & CSS layouts tailored to your brand.</p>
+                </li>
+                <li>
+                    <h3>Responsive Development</h3>
+                    <p>Sites that look great on desktop, tablet, and mobile.</p>
+                </li>
+                <li>
+                    <h3>Website Updates</h3>
+                    <p>Quick fixes and upgrades for your existing site.</p>
+                </li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 CodeCraft Solutions</p>
+    </footer>
+</body>
+</html>
